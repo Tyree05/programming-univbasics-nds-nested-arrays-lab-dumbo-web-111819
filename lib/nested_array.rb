@@ -42,14 +42,14 @@ def array_literal_matrix
     "Pat M.",
     "Kate Gompert",
     "Bruce Green"
-  ].sort,
+  ],
     :ENFIELD_TENNIS_ACADEMY => [
     "Hal Incandenza",
     "Lyle",
     "Gerhard Schtitt",
     "Mario Incandenza",
     "Michael Pemulis"
-  ].sort]
+  ]]
 
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
