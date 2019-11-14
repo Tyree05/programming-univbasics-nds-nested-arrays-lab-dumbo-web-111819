@@ -36,15 +36,25 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  ENNET_HOUSE = ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
-  ENFIELD_TENNIS_ACADEMY = ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
-
-  AL_House = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+  [:ENNET_HOUSE => [
+    "Don Gately",
+    "Joelle van Dyne",
+    "Pat M.",
+    "Kate Gompert",
+    "Bruce Green"
+  ],
+    :ENFIELD_TENNIS_ACADEMY => [
+    "Hal Incandenza",
+    "Lyle",
+    "Gerhard Schtitt",
+    "Mario Incandenza",
+    "Michael Pemulis"
+      ]]
 
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
-return [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
+[:ENNET_HOUSE.sort, :ENFIELD_TENNIS_ACADEMY.sort]
 
 end
 
