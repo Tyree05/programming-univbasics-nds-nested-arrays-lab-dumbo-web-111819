@@ -39,7 +39,7 @@ def array_literal_matrix
   ENNET_HOUSE = ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
   ENFIELD_TENNIS_ACADEMY = ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
 
-  [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+  AL_House = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
